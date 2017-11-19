@@ -1,2 +1,2 @@
 # HomePage
-HomePage (Jinja and GET exercise)
+HomePage (Jinja, GET and extends exercise)
