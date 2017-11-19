@@ -41,7 +41,7 @@ class MyProjectsHandler(BaseHandler):
 
 class BlogHandler(BaseHandler):
     def get(self):
-        sporocilo = "Pozdravljeni, preberite moje bloge."
+        sporocilo = "Hello, you are welcome to read my blogs."
 
         blogs_posts = [{"title": "Prvi blog", "text": "test"}, {"title": "Drugi blog", "text": "test"}] #se tekst pise tukaj ali v .html?
 
