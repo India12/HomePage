@@ -43,8 +43,7 @@ class BlogHandler(BaseHandler):
     def get(self):
         sporocilo = "Hello, you are welcome to read my blogs."
 
-        blogs_posts = [{"title": "Prvi blog", "text": "test"}, {"title": "Drugi blog", "text": "test"}] #se tekst pise tukaj ali v .html?
-
+        blogs_posts = [{"title": "Prvi blog", "text": "test"}, {"title": "Drugi blog", "text": "test"}] 
         params = {"sporocilo": sporocilo, "blogs": blogs_posts}
 
         return self.render_template("blog.html", params=params)
